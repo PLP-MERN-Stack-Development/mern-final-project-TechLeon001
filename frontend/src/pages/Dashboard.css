@@ -1,0 +1,50 @@
+.dashboard {
+  min-height: calc(100vh - 200px);
+  padding: 2rem 0;
+}
+
+.dashboard-header {
+  margin-bottom: 2rem;
+}
+
+.dashboard-header h1 {
+  color: var(--dark-color);
+  margin-bottom: 0.5rem;
+}
+
+.dashboard-header p {
+  color: #6b7280;
+  font-size: 1.1rem;
+}
+
+.dashboard-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.user-info p {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.user-info p:last-child {
+  border-bottom: none;
+}
+
+.user-info strong {
+  color: var(--primary-color);
+  margin-right: 0.5rem;
+}
+
+.card ul {
+  list-style-position: inside;
+  margin-top: 1rem;
+}
+
+.card ul li {
+  margin-bottom: 0.5rem;
+  color: #6b7280;
+}
+
